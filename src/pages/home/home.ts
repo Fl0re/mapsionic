@@ -10,9 +10,10 @@ declare var google: any;
 export class HomePage {
 @ViewChild('map') mapElement: ElementRef;
 map: any;
+boolean= false
+markers=[]
 
   constructor(public navCtrl: NavController,private geolocation:Geolocation) {
- 
   }
 
 geo(){
@@ -32,9 +33,12 @@ geo(){
 
 ionViewDidLoad(){
  this.loadMap();
+
 }
 loadMap(){
+ 
   this.geolocation.getCurrentPosition().then((position)=>{
+    
     let latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
     let mapOptions={
       center: latlng,
@@ -49,14 +53,32 @@ loadMap(){
 }
 
 addMarker(){
-  let marker= new google.maps.Marker({
-    map:this.map,
-    animation: google.maps.Animation.DROP,
-    position: this.map.getCenter()
-  });
-  let content="<h5> Ma position </h5> ";
-  this.addInfoWindow(marker, content);
+
+if(this.boolean== false){
+  this.boolean= true
+    let image: "../assets/icon/mpo.png"
+
+     let marker= new google.maps.Marker({
+      map:this.map,
+      animation: google.maps.Animation.DROP,
+      position: this.map.getCenter(),
+      icon: image
+      
+    });
+    let content="<h5> Vous êtes ici </h5> ";
+
+    this.addInfoWindow(marker, content);
+  }
+  else{
+   document.getElementById('pos').style.display ="block";
+    }
+ 
+    
 }
+addInfoPosition(content){
+
+}
+
 
 addInfoWindow(marker, content){
   let infoWindow= new google.maps.InfoWindow({
@@ -65,5 +87,19 @@ addInfoWindow(marker, content){
   google.maps.event.addListener(marker, 'click', () =>{
     infoWindow.open(this.map, marker)
   })
+}
+
+reload(){
+  location.reload();
+
+ 
+   
+    
+
+
+}
+poshide(){
+  document.getElementById('pos').style.display ="none";
+
 }
 }
