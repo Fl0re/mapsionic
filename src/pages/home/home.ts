@@ -42,7 +42,13 @@ loadMap(){
     let latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
     let mapOptions={
       center: latlng,
-      zoom:15,
+      zoom:10,
+      scrollwheel: true,
+            streetViewControl: true,
+            zoomControl: true,
+            keyboardShortcuts : false,
+            draggable:false,
+
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     this.map =new google.maps.Map(this.mapElement.nativeElement, mapOptions);
@@ -57,7 +63,7 @@ addMarker(){
 if(this.boolean== false){
   this.boolean= true
     let image: "../assets/icon/mpo.png"
-
+   
      let marker= new google.maps.Marker({
       map:this.map,
       animation: google.maps.Animation.DROP,
