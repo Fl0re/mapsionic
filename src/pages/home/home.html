@@ -4,6 +4,8 @@
 Map   </ion-title>
 <ion-buttons end>
   <button ion-button (click)="addMarker()">Ma position</button>
+  <button ion-button (click)="addMarkers()">Les partenaires</button>
+
   <button ion-button icon-only (click)='toggleSearch()'>
 
     <ion-icon name="search"></ion-icon>
@@ -15,6 +17,18 @@ Map   </ion-title>
 </ion-header>
 
 <ion-content >
+  <div id="select">
+    <ion-item>
+        <ion-label>Categories</ion-label>
+        <ion-select color="primary" [(ngModel)]="gender"  multiple="true">
+          <ion-option value="l">Loisirs</ion-option>
+          <ion-option value="at">Attraction</ion-option>
+          <ion-option value="an">Animaux</ion-option>
+          <ion-option value="r">Restaurant</ion-option>
+
+        </ion-select>
+      </ion-item>
+    </div>
     <div id="pos"> 
         
         <button ion-button (click)='reload()'> Relancer ma position</button>

@@ -9,33 +9,24 @@ export class AuthService {
 
   constructor(public http: Http) {}
 
-  login(credentials) {
-    return new Promise((resolve, reject) => {
-        let headers = new Headers();
-        headers.append('Content-Type', 'application/json');
-
-        this.http.post(apiUrl+'user', JSON.stringify(credentials), {headers: headers})
-          .subscribe(res => {
-            resolve(res.json());
-          }, (err) => {
-            reject(err);
-          });
+  login() {
+    return new Promise(resolve => {
+      this.http.get(apiUrl+'/user').subscribe(data => {
+        resolve(data);
+      }, err => {
+        console.log(err);
+      });
     });
   }
+    marker() {
+      return new Promise(resolve => {
+        this.http.get(apiUrl+'/markers').subscribe(data => {
+          resolve(data);
+        }, err => {
+          console.log(err);
+        });
+      });
+  
 
-
-  logout(){
-    return new Promise((resolve, reject) => {
-        let headers = new Headers();
-        headers.append('X-Auth-Token', localStorage.getItem('token'));
-
-        this.http.post(apiUrl+'logout', {}, {headers: headers})
-          .subscribe(res => {
-            localStorage.clear();
-          }, (err) => {
-            reject(err);
-          });
-    });
-  }
-
+}
 }

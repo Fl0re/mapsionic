@@ -1,0 +1,608 @@
+[
+  {
+     
+      "lat": 42.6657911,
+      "lng": 2.91656,   
+      "name": "Cinéma Mega Castillet",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+      "categorie":"loisirs",
+      "icon": "assets/icons/movie-rental.svg"
+
+    },
+    { 
+       
+     
+      "lat":42.8147645,
+      "lng": 2.74728,
+  
+      "name": "Musée préhistorique Tautavel",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+       "categorie":"culture",
+       "icon": "assets/icons/museum.svg"
+
+    },
+    { 
+     
+      "lat": 42.5282041,
+      "lng": 2.39879,
+      "name": "Abbaye Saint-Martin-du-Canigou",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/museum.svg"
+    },
+  
+      { 
+       
+      "lat": 43.2997678,
+      "lng":3.412993,
+
+      "name": "EuroParc Indoor",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+  
+    },
+    { 
+     
+      "lat":42.577154,
+      "lng":3.035382,
+         "name": "Plaza Bowl",
+      "categorie":"loisirs",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/bowling-alley.svg"
+  
+    }
+    ,
+    { 
+     
+      "lat":42.5767127,
+      "lng":3.035740,
+      "name": "Drop-in",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+  
+    },
+    { 
+     
+      "lat":42.5761422,
+      "lng":3.035143,
+      "name": "Mini golf paradise",
+      "categorie":"loisirs",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/golf.svg"
+  
+    },
+    { 
+     
+      "lat":42.5755271,
+      "lng":3.036939,     "name": "Argeles adventure",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+  
+    },
+    { 
+     
+      "lat":42.666154,
+      "lng":2.915624,
+          "name": "Mega castillet",
+      "categorie":"loisirs",
+       "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+       "icon": "assets/icons/movie-rental.svg"
+
+  
+    },
+    { 
+     
+      "lat":42.618775,
+      "lng":2.700598,      "name": "Chateau Castelnou",
+      "categorie":"culture",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/museum.svg"
+  
+    },
+    { 
+     
+      "lat":42.8397276,
+      "lng":2.916054,
+       "name": "Forteresse salse",
+      "categorie":"culture",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/museum.svg"
+  
+    },
+    { 
+     
+      "lat":42.5835468,
+      "lng":2.369489,
+       "name": "Pirate restaurant",
+      "categorie":"restaurant",
+      "icon": "assets/icons/restaurant.svg"
+  
+    },
+    { 
+     
+      "lat":43.6245595,
+      "lng":3.303147,      "name": "My FBS",
+      "categorie":"boutique",
+      "icon": "assets/icons/department-store.svg"
+  
+    },
+    { 
+     
+      "lat":42.7539259,
+      "lng":3.011149,
+       "name": "Le ptit far west",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+  
+    },
+    { 
+     
+      "lat":42.7059357,
+      "lng":3.013809,
+       "name": "La boussole live escape game",
+      "categorie":"loisirs"
+  
+    },
+  
+    { 
+     
+      "lat":42.5545732,
+      "lng":1.802944,
+       "name": "Porté-Puymorens",
+      "categorie":"loisirs"
+    },
+    { 
+     
+      "lat":42.8461047,
+      "lng":2.909085,
+       "name": "Centre des monuments nationaux",
+      "categorie":"culture",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/museum.svg"
+    },
+    { 
+     
+      "lat":42.71808,
+      "lng":2.843233,
+       "name": "Class Dance",
+      "categorie":"loisirs"
+    },
+    { 
+     
+      "lat":42.669313,
+      "lng":2.915014,      "name": "Tag Archery",
+      "categorie":"loisirs"
+    },
+    { 
+     
+      "lat":42.562896,
+      "lng":2.061247,      "name": "x treme laser game 66",
+      "categorie":"loisirs"
+    },
+    { 
+     
+      "lat":42.7021003,
+      "lng":2.939467,
+       "name": "Hello ptits loups",
+      "categorie":"boutique",
+      "icon": "assets/icons/department-store.svg"
+
+    },
+    { 
+     
+      "lat":42.7755072,
+      "lng":2.903944,
+       "name": "Laser Game, Bowling - Cap Loisirs",
+      "categorie":"loisirs"
+    },
+    { 
+     
+      "lat":42.7600656,
+      "lng":3.019236,
+       "name": "'ile aux enfants",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+    },
+    { 
+     
+      "lat":42.6997049,
+      "lng":2.901358,
+       "name": "aperonens",
+      "categorie":"restaurant",
+      "icon": "assets/icons/restaurant.svg"
+    },
+    { 
+     
+      "lat":42.583768,
+      "lng":2.368406,      "name": "La grotte des granders canalettes",
+      "categorie":"culture",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/museum.svg"
+    },
+    { 
+     
+      "lat":42.618775,
+      "lng":2.700598,      "name": "chateau castelnou",
+      "categorie":"culture",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/museum.svg"
+    },
+    { 
+     
+      "lat":42.5922653,
+      "lng":2.975565,
+       "name": "Le Tropique du Papillon",
+      "categorie":"animaux"
+    },
+    { 
+     
+      "lat":42.57733,
+      "lng":3.033065,      "name": "Ludi Kart - Karting ",
+       "categorie":"loisirs,"
+    },
+    { 
+     
+      "lat":42.703894,
+      "lng":3.016584,      "name": "Bowling Lasermaxx QG13 ",
+       "categorie":"loisirs"
+    },
+    { 
+     
+      "lat":43.934294,
+      "lng":4.150809,      "name": "le village des enfants ",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+  
+      
+      
+    },{ 
+     
+      "lat":42.6673948,
+      "lng":2.956586,
+       "name": "Karting st cyprien ",
+      "categorie":"loisirs",
+      "icon": "assets/icons/snow-shoeing.svg"
+
+    },{ 
+     
+      "lat":42.5143441,
+      "lng":2.044639,
+       "name": "PATINOIRE DE PYRENEES 2000",
+      "categorie":"loisirs",
+      "icon": "assets/icons/snow-shoeing.svg"
+  
+    },{ 
+     
+      "lat":42.6169159,
+      "lng":3.002901,
+       "name": "Espace Aquasud Piscine  ",
+      "categorie":"sport",
+      "icon": "assets/icons/diving.svg"
+
+   },{ 
+     
+      "lat":42.6168944,
+      "lng":2.934873,
+       "name": "AQUAJUMP ",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+  
+    },{ 
+     
+      "lat":42.6165302,
+      "lng":2.723880,
+       "name": " LE TELESKI NAUTIQUE ",
+      "categorie":"sport",
+      "icon": "assets/icons/snowboarding.svg"
+
+    },{ 
+     
+      "lat":42.3349298,
+      "lng":1.735461,
+       "name": "Aventure active ",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+  
+    },{ 
+     
+      "lat":42.5699951,
+      "lng":2.091498,
+       "name": "Les Petits Bateaux La Matte",
+      "categorie":"loisirs",
+      "icon": "assets/icons/sailing.svg"
+
+  
+    },{ 
+     
+      "lat":42.6495697,
+      "lng":2.531280,
+       "name": "AQUAGLISS 66  ",
+      "categorie":"loisirs",
+      "icon": "assets/icons/waterskiing.svg"
+  
+    },{ 
+     
+      "lat":42.7850913,
+      "lng":2.897811,
+       "name": "Complexe Sportif du Roussillon ",
+      "categorie":"sport",
+      "icon": "assets/icons/gym.svg"
+
+    },{ 
+     
+      "lat":42.5422823,
+      "lng":2.115636,
+       "name": "Station de ski de La Quillane ",
+      "categorie":"sport",
+      "icon": "assets/icons/skiing.svg"
+      },{ 
+       
+      "lat":42.57733,
+      "lng":3.033065,"name": "Ludi Kart - Karting ",
+      "categorie":"loisirs"
+    },{ 
+     
+      "lat":42.573088,
+      "lng":2.98378,
+      "name": "Ferme de Découverte Saint-André",
+      "categorie":"animaux",
+      "icon": "assets/icons/zoo.svg"
+    },
+    { 
+     
+      "lat":42.5961448,
+      "lng":2.853252,
+       "name": "Ferme Saint Roch",
+      "categorie":"animaux",
+      "icon": "assets/icons/zoo.svg"
+    },
+    { 
+     
+      "lat":42.522697,
+      "lng":2.118796,      "name": "Ferme du Rialet",   
+       "categorie":"animaux",
+       "icon": "assets/icons/zoo.svg"
+  
+    },
+  
+    { 
+     
+      "lat":42.6041203,
+      "lng":2.175251,
+       "name": "La Ferme Aux Ânes",    
+       "categorie":"animaux",
+       "icon": "assets/icons/zoo.svg"
+  
+    },
+    { 
+     
+      "lat":43.1877722,
+      "lng":2.390626,
+       "name": "LE PARC AUSTRALIEN",
+      "categorie":"animaux",
+      "icon": "assets/icons/zoo.svg"
+    },{ 
+     
+      "lat":42.648646,
+      "lng":2.748833,      "name": "tout en calèche",
+      "categorie":"animaux",
+      "icon": "assets/icons/zoo.svg"
+  
+    },{ 
+     
+      "lat":42.6920154,
+      "lng":2.847907,
+       "name": "Jump-Story",
+      "categorie":"attraction",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/amusement-park.svg"
+
+  
+    },{ 
+     
+      "lat":42.699409,
+      "lng":2.887317,      "name": "NIN'S PARC",
+      "categorie":"attraction",
+      "icon": "assets/icons/amusement-park.svg"
+
+  
+    },{ 
+     
+      "lat":42.7123345,
+      "lng":2.999696,
+       "name": "LES FOUS DE LA TÊT",
+      "categorie":"loisirs",
+      "icon": "assets/icons/playground.svg"
+
+  
+    },{ 
+     
+      "lat":43.3287601,
+      "lng":3.284155,
+       "name": "Indoor land",
+      "categorie":"attraction",
+      "icon": "assets/icons/amusement-park.svg"
+
+    },
+    { 
+     
+      "lat":42.526824,
+      "lng":3.082508,      "name": "Tresors 66",
+      "categorie":"loisirs"
+    },
+    { 
+     
+      "lat":42.6120475,
+      "lng":2.829942,
+       "name": "Labyrinthes aux 1000 Fleurs",
+      "categorie":"loisirs",
+      "icon": "assets/icons/florist.svg"
+
+  
+    },
+    { 
+     
+      "lat":42.637162,
+      "lng":2.937093,      "name": "Fantassia, parc de la féerie",
+      "categorie":"attraction",
+      "icon": "assets/icons/amusement-park.svg"
+
+  
+    },
+    { 
+     
+      "lat":42.513002,
+      "lng":2.802129,      "name": "Les Aventuriers de Saint Jean",
+      "categorie":"attraction",
+      "icon": "assets/icons/amusement-park.svg"
+
+  
+    },
+     { 
+      
+      "lat":42.7610122,
+      "lng":3.015507,
+      "name": "ACROVERTIGE",
+      "categorie":"attraction",
+      "icon": "assets/icons/amusement-park.svg"
+
+  
+    }, { 
+     
+      "lat":42.669249,
+      "lng":2.916564,      "name": "Stadium FIVE Center",
+      "categorie":"sport",
+      "icon": "assets/icons/gym.svg"
+
+  
+    },
+    { 
+     
+      "lat":42.7850913,
+      "lng":2.897811,
+       "name": "Complexe Sportif du Roussillon",
+      "categorie":"sport",
+      "icon": "assets/icons/gym.svg"
+
+  
+  },{ 
+     
+      "lat":43.9176709,
+      "lng":5.048140,
+       "name": "Reve de Lutin",
+      "categorie":"boutique",
+      "icon": "assets/icons/department-store.svg"
+
+  
+    },{ 
+     
+      "lat":42.6825828,
+      "lng":2.814063,      "name": "Happy Days",
+      "categorie":"culture",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/museum.svg"
+  
+    },{ 
+     
+      "lat":42.6886591,
+      "lng":2.892639,
+       "name": "Emilie Photographie - Objectif bien être",
+      "categorie":"photo",
+      "icon": "assets/icons/point-of-interest.svg"
+
+      
+  
+    },{ 
+     
+      "lat":42.7271,
+      "lng":2.885736,      "name": "CATALAN TAEKWONDO KANG",
+      "categorie":"sport",
+      "icon": "assets/icons/gym.svg"
+    
+
+  
+    },{ 
+     
+      "lat":42.7271,
+      "lng":2.885736,      "name": "BabyGym",
+      "categorie":"sport",
+      "icon": "assets/icons/gym.svg"
+
+  
+    },{ 
+     
+      "lat":43.3101884,
+      "lng":3.112934,
+       "name": "Site et musée archéologique d’Ensérune",
+      "categorie":"culture",
+      "adress":"Zac du, Rond-Point du Mas Rouma, 66000 Perpignan",
+
+      "icon": "assets/icons/museum.svg"
+  
+    },{ 
+     
+      "lat":42.5446988,
+      "lng":3.022160,
+       "name": "Le Flowers",
+      "categorie":"boutique",
+      "icon": "assets/icons/department-store.svg"
+
+  
+    },{ 
+     
+      "lat":42.6934224,
+      "lng":2.879131,
+       "name": "Restaurant FLUNCH",
+      "categorie":"restaurant",
+      "icon": "assets/icons/food.svg"
+  
+    },{ 
+     
+      "lat":42.774338,
+      "lng":3.012504,     "name": "McDonald's Saint-Laurent-de-la-Salanque",
+      "categorie":"restaurant",
+      "icon": "assets/icons/food.svg"
+
+  
+    },{ 
+      
+      "lat":42.6657403,
+      "lng":2.915084,       "name": "La Table Ronde",
+      "categorie":"attraction",
+      "icon": "assets/icons/amusement-park.svg"
+
+  
+    }
+
+  ]
+
+
+
+
+

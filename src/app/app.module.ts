@@ -10,16 +10,17 @@ import { MyApp } from './app.component';
 import{TabsPage} from '../pages/tabs/tabs'
 import { HomePage } from '../pages/home/home';
 import { CartePage } from '../pages/carte/carte';
+import { RestProvider } from '../providers/rest/rest';
 import { ConnexionPage } from '../pages/connexion/connexion';
 import { AuthService } from '../providers/auth-service/auth-service';
+
 @NgModule({
   declarations: [
     MyApp,
    TabsPage,
    HomePage,
    CartePage,
-   ConnexionPage
-    
+  ConnexionPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +35,6 @@ import { AuthService } from '../providers/auth-service/auth-service';
     HomePage,
     CartePage,
     ConnexionPage
-
     
   ],
   providers: [
@@ -42,6 +42,7 @@ import { AuthService } from '../providers/auth-service/auth-service';
     SplashScreen,
     Geolocation,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
+    RestProvider,
     AuthService
   ]
 })

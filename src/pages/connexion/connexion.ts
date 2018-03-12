@@ -10,15 +10,16 @@ import { AuthService } from '../../providers/auth-service/auth-service';
 export class ConnexionPage {
 
   loading: any;
-  loginData = { email:'', mdp:'' };
+  loginData = { mail:'', mdp:'' };
   data: any;
 
   constructor(public navCtrl: NavController, public authService: AuthService, public loadingCtrl: LoadingController, private toastCtrl: ToastController) {}
-
+ 
   doLogin() {
     this.showLoader();
-    this.authService.login(this.loginData).then((result) => {
-      this.loading.dismiss();
+    this.authService.login().then((result) => {
+      console.log(result)
+      this.loading.dismiss(); 
       this.data = result;
       localStorage.setItem('token', this.data.access_token);
       this.navCtrl.setRoot(TabsPage);
@@ -32,7 +33,7 @@ export class ConnexionPage {
 
   showLoader(){
     this.loading = this.loadingCtrl.create({
-        content: 'Authenticating...'
+        content: 'Authentification...'
     });
 
     this.loading.present();
